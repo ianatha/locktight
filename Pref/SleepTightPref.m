@@ -33,10 +33,12 @@
 ///////////////////////////////////////////////////////////////
 
 - (void) mainViewDidLoad {
-
+    NSDictionary *info = [[NSBundle bundleForClass:[self class]]infoDictionary];
+    NSString *name = [info objectForKey:@"CFBundleName"];
+    NSString *version = [info objectForKey:@"CFBundleVersion"];
+    NSString *copyright = [info objectForKey:@"NSHumanReadableCopyright"];
 	// On first load set the version string
-	[versionDisplay setStringValue:
-		[[[NSBundle bundleForClass:[self class]] infoDictionary] objectForKey:@"CFBundleGetInfoString"]];
+	[versionDisplay setStringValue:[NSString localizedStringWithFormat:@"%@ %@\n%@",name,version,copyright]];
 		
 	// Load up our keycode conversion
 	keyCoder = [[SleepTightKeyCode alloc] init];	
