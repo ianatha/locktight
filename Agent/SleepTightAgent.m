@@ -183,34 +183,6 @@ pascal OSStatus LockHotKeyHandler(EventHandlerCallRef nextHandler, EventRef theE
 
 ///////////////////////////////////////////////////////////////
 //	
-//	Sleep control
-//
-///////////////////////////////////////////////////////////////
-
-- (void)startSleep {
-	mach_port_t		masterPort = nil;
-	io_connect_t    ioPort = nil;
-		
-	if (IOPMSleepEnabled()) {
-		IOMasterPort(MACH_PORT_NULL, &masterPort);
-		if (!masterPort) {
-			return;
-		}
-		ioPort = IOPMFindPowerManagement(masterPort);
-		if (ioPort) {
-			if (IOPMSleepSystem(ioPort)) {
-				NSLog(@"SleepTightAgent cannot sleep machine (sleep failed).\n");
-			}
-		}
-	} 
-	else {
-		NSLog(@"SleepTightAgent cannot sleep machine (not supported).\n");
-	}
-	
-} // startSleep
-
-///////////////////////////////////////////////////////////////
-//	
 //	Preferences
 //
 ///////////////////////////////////////////////////////////////
