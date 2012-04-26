@@ -23,7 +23,7 @@
 // 
 
 // Main bundle ID, pref ID
-#define SLEEPTIGHTID					@"com.ragingmenace.SleepTight"
+#define SLEEPTIGHTID					@"com.github.thatha.LockTight"
 
 // Hotkey registration signature
 #define SLEEPTIGHTHOTKEYSIGNATURE		'STak'
@@ -53,7 +53,7 @@
 #define STENABLEDDEFAULT				NO
 #define STHOTKEYENABLEDDEFAULT			YES
 #define STHOTKEYSLEEPDEFAULT			NO
-#define STMODIFIERDEFAULT				cmdKey | optionKey | shiftKey
+#define STMODIFIERDEFAULT				controlKey | optionKey | cmdKey
 // Default keycode is "L" on English keyboard
 #define STKEYCODE						37
 
