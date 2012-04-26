@@ -243,9 +243,9 @@
 /* Begin PBXFileReference section */
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		17587328FF379C6511CA2CBB /* SleepTightAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SleepTightAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5E291A5104B7F30007BAE9C /* Info-SleepTightPref__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-SleepTightPref__Upgraded_.plist"; sourceTree = "<group>"; };
+		B5E291A5104B7F30007BAE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Pref/Info.plist; sourceTree = "<group>"; };
 		B5E291A6104B7F31007BAE9C /* LockTight.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockTight.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5E291C1104B7F31007BAE9C /* Info-SleepTightAgent__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-SleepTightAgent__Upgraded_.plist"; sourceTree = "<group>"; };
+		B5E291C1104B7F31007BAE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Agent/Info.plist; sourceTree = "<group>"; };
 		B5E291C2104B7F31007BAE9C /* SleepTightAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepTightAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40A487B0484656F00A87BC9 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
 		D40A48800484682500A87BC9 /* ScreenSaverControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ScreenSaverControl.h; path = Agent/ScreenSaverControl.h; sourceTree = "<group>"; };
@@ -346,8 +346,6 @@
 				D4E85FCF048040BE00A87BC9 /* PrefPane */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				B5E291A5104B7F30007BAE9C /* Info-SleepTightPref__Upgraded_.plist */,
-				B5E291C1104B7F31007BAE9C /* Info-SleepTightAgent__Upgraded_.plist */,
 			);
 			name = LockTight;
 			sourceTree = "<group>";
@@ -377,6 +375,7 @@
 		D4E85FCF048040BE00A87BC9 /* PrefPane */ = {
 			isa = PBXGroup;
 			children = (
+				B5E291A5104B7F30007BAE9C /* Info.plist */,
 				D4A00C20048041C700A87BC9 /* SleepTightPref.h */,
 				D4A00C1F048041C700A87BC9 /* SleepTightPref.m */,
 				D4C7110F048167F400A87BC9 /* SleepTightKeyCode.h */,
@@ -403,6 +402,7 @@
 		D4EE8CF7047F0A0B00A87BC9 /* Agent */ = {
 			isa = PBXGroup;
 			children = (
+				B5E291C1104B7F31007BAE9C /* Info.plist */,
 				D4EE8D06047F0ACB00A87BC9 /* main.m */,
 				D40A48800484682500A87BC9 /* ScreenSaverControl.h */,
 				D4EE8D0D047F0D4300A87BC9 /* SleepTightAgent.h */,
@@ -898,7 +898,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INFOPLIST_FILE = "Info-SleepTightPref__Upgraded_.plist";
+				INFOPLIST_FILE = Pref/Info.plist;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = (
 					"-bundle",
@@ -922,7 +922,7 @@
 			buildSettings = {
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INFOPLIST_FILE = "Info-SleepTightPref__Upgraded_.plist";
+				INFOPLIST_FILE = Pref/Info.plist;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = (
 					"-bundle",
@@ -950,7 +950,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-SleepTightAgent__Upgraded_.plist";
+				INFOPLIST_FILE = Agent/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "";
@@ -975,7 +975,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-SleepTightAgent__Upgraded_.plist";
+				INFOPLIST_FILE = Agent/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "";
