@@ -15,7 +15,6 @@
 		B5E2918F104B7F30007BAE9C /* SleepTightHotKeyPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C7111B04819F2B00A87BC9 /* SleepTightHotKeyPanel.h */; };
 		B5E29191104B7F30007BAE9C /* lock.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D4E85FD1048040DD00A87BC9 /* lock.tiff */; };
 		B5E29192104B7F30007BAE9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4A00C1A048041AB00A87BC9 /* InfoPlist.strings */; };
-		B5E29193104B7F30007BAE9C /* SleepTightPref.nib in Resources */ = {isa = PBXBuildFile; fileRef = D4A00C1C048041BC00A87BC9 /* SleepTightPref.nib */; };
 		B5E29195104B7F30007BAE9C /* KeyCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4C7111604816BEA00A87BC9 /* KeyCode.plist */; };
 		B5E29196104B7F30007BAE9C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D46D32C604C395EB00A87BC9 /* Localizable.strings */; };
 		B5E29198104B7F30007BAE9C /* SleepTightPref.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A00C1F048041C700A87BC9 /* SleepTightPref.m */; };
@@ -45,6 +44,8 @@
 		B5E291BC104B7F31007BAE9C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C05843048007B000A87BC9 /* IOKit.framework */; };
 		B5E291BD104B7F31007BAE9C /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40A487B0484656F00A87BC9 /* ScreenSaver.framework */; };
 		B5E291C8104B7F31007BAE9C /* SleepTightAgent.app in Resources */ = {isa = PBXBuildFile; fileRef = B5E291C2104B7F31007BAE9C /* SleepTightAgent.app */; };
+		C76336F2154935C0008009AE /* PreferencePane.xib in Resources */ = {isa = PBXBuildFile; fileRef = C76336F1154935C0008009AE /* PreferencePane.xib */; };
+		C76336F415493667008009AE /* lock_512.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C76336F315493667008009AE /* lock_512.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		B5E291A6104B7F31007BAE9C /* LockTight.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockTight.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E291C1104B7F31007BAE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Agent/Info.plist; sourceTree = "<group>"; };
 		B5E291C2104B7F31007BAE9C /* SleepTightAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepTightAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76336F1154935C0008009AE /* PreferencePane.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencePane.xib; sourceTree = "<group>"; };
+		C76336F315493667008009AE /* lock_512.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = lock_512.tiff; path = Pref/lock_512.tiff; sourceTree = "<group>"; };
 		D40A487B0484656F00A87BC9 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
 		D40A48800484682500A87BC9 /* ScreenSaverControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ScreenSaverControl.h; path = Agent/ScreenSaverControl.h; sourceTree = "<group>"; };
 		D46336EB04801D6D00A87BC9 /* SleepTightDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SleepTightDefaults.h; path = Common/SleepTightDefaults.h; sourceTree = "<group>"; };
@@ -72,7 +75,6 @@
 		D477FAF1047F511C00A87BC9 /* LockBezel.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = LockBezel.tiff; path = Agent/LockBezel.tiff; sourceTree = "<group>"; };
 		D48906DC047F450A00A87BC9 /* SleepTightSaverPref.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SleepTightSaverPref.m; path = Common/SleepTightSaverPref.m; sourceTree = "<group>"; };
 		D4A00C1A048041AB00A87BC9 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Pref/InfoPlist.strings; sourceTree = "<group>"; };
-		D4A00C1D048041BC00A87BC9 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Pref/English.lproj/SleepTightPref.nib; sourceTree = "<group>"; };
 		D4A00C1F048041C700A87BC9 /* SleepTightPref.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SleepTightPref.m; path = Pref/SleepTightPref.m; sourceTree = "<group>"; };
 		D4A00C20048041C700A87BC9 /* SleepTightPref.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SleepTightPref.h; path = Pref/SleepTightPref.h; sourceTree = "<group>"; };
 		D4C05843048007B000A87BC9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
@@ -182,11 +184,12 @@
 		D4E85FD0048040C900A87BC9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C76336F1154935C0008009AE /* PreferencePane.xib */,
 				D46D32C604C395EB00A87BC9 /* Localizable.strings */,
 				D4C7111604816BEA00A87BC9 /* KeyCode.plist */,
 				D4A00C1A048041AB00A87BC9 /* InfoPlist.strings */,
-				D4A00C1C048041BC00A87BC9 /* SleepTightPref.nib */,
 				D4E85FD1048040DD00A87BC9 /* lock.tiff */,
+				C76336F315493667008009AE /* lock_512.tiff */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -318,10 +321,11 @@
 			files = (
 				B5E29191104B7F30007BAE9C /* lock.tiff in Resources */,
 				B5E29192104B7F30007BAE9C /* InfoPlist.strings in Resources */,
-				B5E29193104B7F30007BAE9C /* SleepTightPref.nib in Resources */,
 				B5E291C8104B7F31007BAE9C /* SleepTightAgent.app in Resources */,
 				B5E29195104B7F30007BAE9C /* KeyCode.plist in Resources */,
 				B5E29196104B7F30007BAE9C /* Localizable.strings in Resources */,
+				C76336F2154935C0008009AE /* PreferencePane.xib in Resources */,
+				C76336F415493667008009AE /* lock_512.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,14 +393,6 @@
 				D46D32C404C395E400A87BC9 /* English */,
 			);
 			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		D4A00C1C048041BC00A87BC9 /* SleepTightPref.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4A00C1D048041BC00A87BC9 /* English */,
-			);
-			name = SleepTightPref.nib;
 			sourceTree = "<group>";
 		};
 		D4C7111604816BEA00A87BC9 /* KeyCode.plist */ = {
