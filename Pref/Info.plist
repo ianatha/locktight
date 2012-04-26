@@ -27,7 +27,7 @@
 	<key>NSMainNibFile</key>
 	<string>SleepTightPref</string>
 	<key>NSPrefPaneIconFile</key>
-	<string>SleepTightPref.tiff</string>
+	<string>lock.tiff</string>
 	<key>NSPrincipalClass</key>
 	<string>SleepTightPref</string>
 </dict>

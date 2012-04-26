@@ -13,7 +13,7 @@
 		B5E2918D104B7F30007BAE9C /* SleepTightSaverPref.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C47004047F2E8C00A87BC9 /* SleepTightSaverPref.h */; };
 		B5E2918E104B7F30007BAE9C /* SleepTightKeyCode.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C7110F048167F400A87BC9 /* SleepTightKeyCode.h */; };
 		B5E2918F104B7F30007BAE9C /* SleepTightHotKeyPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C7111B04819F2B00A87BC9 /* SleepTightHotKeyPanel.h */; };
-		B5E29191104B7F30007BAE9C /* SleepTightPref.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D4E85FD1048040DD00A87BC9 /* SleepTightPref.tiff */; };
+		B5E29191104B7F30007BAE9C /* lock.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D4E85FD1048040DD00A87BC9 /* lock.tiff */; };
 		B5E29192104B7F30007BAE9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4A00C1A048041AB00A87BC9 /* InfoPlist.strings */; };
 		B5E29193104B7F30007BAE9C /* SleepTightPref.nib in Resources */ = {isa = PBXBuildFile; fileRef = D4A00C1C048041BC00A87BC9 /* SleepTightPref.nib */; };
 		B5E29195104B7F30007BAE9C /* KeyCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4C7111604816BEA00A87BC9 /* KeyCode.plist */; };
@@ -82,7 +82,7 @@
 		D4C7111704816BEA00A87BC9 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist; name = English; path = Pref/English.lproj/KeyCode.plist; sourceTree = "<group>"; };
 		D4C7111B04819F2B00A87BC9 /* SleepTightHotKeyPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SleepTightHotKeyPanel.h; path = Pref/SleepTightHotKeyPanel.h; sourceTree = "<group>"; };
 		D4C7111C04819F2B00A87BC9 /* SleepTightHotKeyPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SleepTightHotKeyPanel.m; path = Pref/SleepTightHotKeyPanel.m; sourceTree = "<group>"; };
-		D4E85FD1048040DD00A87BC9 /* SleepTightPref.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = SleepTightPref.tiff; path = Pref/SleepTightPref.tiff; sourceTree = "<group>"; };
+		D4E85FD1048040DD00A87BC9 /* lock.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = lock.tiff; path = Pref/lock.tiff; sourceTree = "<group>"; };
 		D4E85FD6048040FE00A87BC9 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
 		D4EE8D02047F0A8800A87BC9 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		D4EE8D06047F0ACB00A87BC9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Agent/main.m; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 				D4C7111604816BEA00A87BC9 /* KeyCode.plist */,
 				D4A00C1A048041AB00A87BC9 /* InfoPlist.strings */,
 				D4A00C1C048041BC00A87BC9 /* SleepTightPref.nib */,
-				D4E85FD1048040DD00A87BC9 /* SleepTightPref.tiff */,
+				D4E85FD1048040DD00A87BC9 /* lock.tiff */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5E29191104B7F30007BAE9C /* SleepTightPref.tiff in Resources */,
+				B5E29191104B7F30007BAE9C /* lock.tiff in Resources */,
 				B5E29192104B7F30007BAE9C /* InfoPlist.strings in Resources */,
 				B5E29193104B7F30007BAE9C /* SleepTightPref.nib in Resources */,
 				B5E291C8104B7F31007BAE9C /* SleepTightAgent.app in Resources */,
