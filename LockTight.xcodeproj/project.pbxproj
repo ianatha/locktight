@@ -228,14 +228,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B5E29186104B7F30007BAE9C /* SleepTightPref (Upgraded) */;
+			remoteGlobalIDString = B5E29186104B7F30007BAE9C;
 			remoteInfo = "SleepTightPref (Upgraded)";
 		};
 		B5E291C6104B7F31007BAE9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B5E291A7104B7F31007BAE9C /* SleepTightAgent (Upgraded) */;
+			remoteGlobalIDString = B5E291A7104B7F31007BAE9C;
 			remoteInfo = "SleepTightAgent (Upgraded)";
 		};
 /* End PBXContainerItemProxy section */
@@ -251,7 +251,7 @@
 		D40A48800484682500A87BC9 /* ScreenSaverControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ScreenSaverControl.h; path = Agent/ScreenSaverControl.h; sourceTree = "<group>"; };
 		D46336EB04801D6D00A87BC9 /* SleepTightDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SleepTightDefaults.h; path = Common/SleepTightDefaults.h; sourceTree = "<group>"; };
 		D46336EC04801D6D00A87BC9 /* SleepTightDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SleepTightDefaults.m; path = Common/SleepTightDefaults.m; sourceTree = "<group>"; };
-		D46D32C304C3941400A87BC9 /* GNU General Public License.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "GNU General Public License.rtf"; sourceTree = "<group>"; };
+		D46D32C304C3941400A87BC9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D46D32C404C395E400A87BC9 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = Pref/English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D477FAF1047F511C00A87BC9 /* LockBezel.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = LockBezel.tiff; path = Agent/LockBezel.tiff; sourceTree = "<group>"; };
 		D48906DC047F450A00A87BC9 /* SleepTightSaverPref.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SleepTightSaverPref.m; path = Common/SleepTightSaverPref.m; sourceTree = "<group>"; };
@@ -340,7 +340,7 @@
 		29B97314FDCFA39411CA2CEA /* LockTight */ = {
 			isa = PBXGroup;
 			children = (
-				D46D32C304C3941400A87BC9 /* GNU General Public License.rtf */,
+				D46D32C304C3941400A87BC9 /* LICENSE */,
 				D4EE8D11047F0D5300A87BC9 /* Common */,
 				D4EE8CF7047F0A0B00A87BC9 /* Agent */,
 				D4E85FCF048040BE00A87BC9 /* PrefPane */,
@@ -528,9 +528,13 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = B5E29139104B79F4007BAE9C /* Build configuration list for PBXProject "LockTight_0.1.1" */;
+			buildConfigurationList = B5E29139104B79F4007BAE9C /* Build configuration list for PBXProject "LockTight" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* LockTight */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -990,7 +994,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5E29139104B79F4007BAE9C /* Build configuration list for PBXProject "LockTight_0.1.1" */ = {
+		B5E29139104B79F4007BAE9C /* Build configuration list for PBXProject "LockTight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5E29131104B79F4007BAE9C /* Deployment */,
