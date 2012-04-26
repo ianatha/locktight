@@ -134,14 +134,6 @@
 	[self _saveIntPref:STHOTKEYCODEPREFKEY value:code];
 } // setHotkeyCode
 
-- (BOOL)firstRunWarnOff {
-	return [self _loadBoolPref:STFIRSTRUNWARNPREFKEY defaultValue:NO];
-} // firstRunWarnOff
-
-- (void)setFirstRunWarnOff:(BOOL)state {
-	[self _saveBoolPref:STFIRSTRUNWARNPREFKEY value:state];
-} // setFirstRunWarnOff
-
 ///////////////////////////////////////////////////////////////
 //	
 //	Internal

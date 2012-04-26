@@ -99,38 +99,7 @@
 		// Go ahead and start the agent anyway
 		NSLog(@"SleepTight unable to check system version number.\n");
 	}
-	
-	// Activate first run warning
-	if (![ourPrefs firstRunWarnOff]) {
-		NSBeginCriticalAlertSheet(
-			// Title
-			[[NSBundle bundleForClass:[self class]] localizedStringForKey:FIRSTRUNTITLESTRING value:nil table:nil],
-			// Default button
-			[[NSBundle bundleForClass:[self class]] localizedStringForKey:@"OK" value:nil table:nil],
-			// Alternate button
-			nil,
-			// Other button
-			nil,
-			// Window
-			[[self mainView] window],
-			// Delegate
-			nil,
-			// end elector
-			nil,
-			// dismiss selector
-			nil,
-			// context
-			nil,
-			// msg
-			[[NSBundle bundleForClass:[self class]] 
-				localizedStringForKey:FIRSTRUNSTRING 
-				value:nil table:nil]
-			);
-		// Only do this once
-		[ourPrefs setFirstRunWarnOff:YES];
-		[ourPrefs syncToDisk];
-	}
-	
+		
 	// Go ahead and start the agent
 	[self startAgent];
 			

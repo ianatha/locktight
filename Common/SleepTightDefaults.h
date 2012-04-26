@@ -50,8 +50,6 @@
 - (void)setHotkeyModifier:(int)modifier;
 - (int)hotkeyCode;
 - (void)setHotkeyCode:(int)code;
-- (BOOL)firstRunWarnOff;
-- (void)setFirstRunWarnOff:(BOOL)state;
 
 // Internal
 - (BOOL)_loadBoolPref:(NSString *)prefname defaultValue:(BOOL)defaultval;

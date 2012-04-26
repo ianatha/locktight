@@ -48,7 +48,6 @@
 #define STHOTKEYSLEEPPREFKEY			@"HotKeySleep"
 #define STHOTKEYMODIFIERPREFKEY			@"HotKeyModifier"
 #define STHOTKEYCODEPREFKEY				@"HotKeyCode"
-#define STFIRSTRUNWARNPREFKEY			@"FirstRunWarnOff"
 
 // Pref defaults
 #define STENABLEDDEFAULT				NO

@@ -37,9 +37,6 @@
 // Localizable strings
 #define OSERRORTITLESTRING @"Unsupported OS Version"
 #define OSERRORSTRING @"SleepTight is only supported on MacOS X 10.3 Panther. See the ReadMe file for details."
-#define FIRSTRUNTITLESTRING @"SleepTight First Run"
-#define FIRSTRUNSTRING @"SleepTight works with most Macintosh models and most screensavers, however some combinations of Mac model and screensaver can cause serious problems. Please read the FAQ in the ReadMe file before enabling SleepTight\n\nThis message will only appear once."
-
 
 @interface SleepTightPref : NSPreferencePane {
 	// Prefs
