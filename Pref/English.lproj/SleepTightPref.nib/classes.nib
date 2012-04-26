@@ -1,0 +1,43 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = NSPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_firstKeyView" = id; 
+                "_initialKeyView" = id; 
+                "_lastKeyView" = id; 
+                "_window" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = SleepTightHotKeyPanel; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {
+            ACTIONS = {
+                acceptHotkeySheet = id; 
+                cancelHotkeySheet = id; 
+                configureHotkey = id; 
+                enableChange = id; 
+                enableHotkey = id; 
+            }; 
+            CLASS = SleepTightPref; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                hotkeyChange = NSButton; 
+                hotkeyDisplay = NSTextField; 
+                hotkeyEnable = NSButton; 
+                hotkeyLabel = NSTextField; 
+                hotkeyPanel = NSPanel; 
+                hotkeyPanelCancel = NSButton; 
+                hotkeyPanelDisplay = NSTextField; 
+                hotkeyPanelOK = NSButton; 
+                hotkeySleepEnable = NSButton; 
+                stEnable = NSButton; 
+                versionDisplay = NSTextField; 
+            }; 
+            SUPERCLASS = NSPreferencePane; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>LockTight</string>
+	<key>CFBundleGetInfoString</key>
+	<string>LockTight 0.1.1, (Ben Haylock 10.6 recompile), Menno Pieters, based upon SleepTight Copyright © 2003 Alex Harper</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>cx.pieters.LockTight</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>LockTight</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>LockTight 0.1.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1.1</string>
+	<key>NSMainNibFile</key>
+	<string>SleepTightPref</string>
+	<key>NSPrefPaneIconFile</key>
+	<string>SleepTightPref.tiff</string>
+	<key>NSPrincipalClass</key>
+	<string>SleepTightPref</string>
+</dict>
+</plist>

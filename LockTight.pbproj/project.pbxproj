@@ -1,0 +1,897 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		1058C7A1FEA54F0111CA2CBB = {
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+		};
+		1058C7A3FEA54F0111CA2CBB = {
+			fileRef = 1058C7A1FEA54F0111CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//100
+//101
+//102
+//103
+//104
+//170
+//171
+//172
+//173
+//174
+		17587328FF379C6511CA2CBB = {
+			isa = PBXApplicationReference;
+			path = SleepTightAgent.app;
+			refType = 3;
+		};
+//170
+//171
+//172
+//173
+//174
+//190
+//191
+//192
+//193
+//194
+		19C28FACFE9D520D11CA2CBB = {
+			children = (
+				17587328FF379C6511CA2CBB,
+				D4E85FCA04803ED500A87BC9,
+			);
+			isa = PBXGroup;
+			name = Products;
+			path = "";
+			refType = 4;
+		};
+//190
+//191
+//192
+//193
+//194
+//290
+//291
+//292
+//293
+//294
+		29B97313FDCFA39411CA2CEA = {
+			buildStyles = (
+				4A9504CDFFE6A4B311CA0CBA,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 29B97314FDCFA39411CA2CEA;
+			projectDirPath = "";
+			targets = (
+				D4EE8D00047F0A6D00A87BC9,
+				D4E85FC904803ED500A87BC9,
+				29B97326FDCFA39411CA2CEA,
+			);
+		};
+		29B97314FDCFA39411CA2CEA = {
+			children = (
+				D46D32C304C3941400A87BC9,
+				D4EE8D11047F0D5300A87BC9,
+				D4EE8CF7047F0A0B00A87BC9,
+				D4E85FCF048040BE00A87BC9,
+				29B97323FDCFA39411CA2CEA,
+				19C28FACFE9D520D11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = LockTight;
+			path = "";
+			refType = 4;
+		};
+		29B97317FDCFA39411CA2CEA = {
+			children = (
+				D4EE8D09047F0AF000A87BC9,
+				D4EE8D0B047F0B3700A87BC9,
+				D477FAF1047F511C00A87BC9,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+		};
+		29B97323FDCFA39411CA2CEA = {
+			children = (
+				1058C7A1FEA54F0111CA2CBB,
+				D4EE8D02047F0A8800A87BC9,
+				D40A487B0484656F00A87BC9,
+				D4C05843048007B000A87BC9,
+				D4E85FD6048040FE00A87BC9,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			path = "";
+			refType = 4;
+		};
+		29B97326FDCFA39411CA2CEA = {
+			buildPhases = (
+				29B97327FDCFA39411CA2CEA,
+				29B97328FDCFA39411CA2CEA,
+				29B9732BFDCFA39411CA2CEA,
+				29B9732DFDCFA39411CA2CEA,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PRODUCT_NAME = SleepTightAgent;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = SleepTightAgent;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SleepTight;
+			productReference = 17587328FF379C6511CA2CBB;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SleepTightAgent</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.ragingmenace.SleepTightAgent</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>LSBackgroundOnly</key>
+	<integer>1</integer>
+	<key>NSMainNibFile</key>
+	<string>SleepTightAgent</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+		29B97327FDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				D4EE8D0F047F0D4300A87BC9,
+				D4EE8D13047F0DB600A87BC9,
+				D4C47006047F2E8C00A87BC9,
+				D46336ED04801D6D00A87BC9,
+				D4EF0D660480378C00A87BC9,
+				D40A48810484682500A87BC9,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B97328FDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				D4EE8D0A047F0AF000A87BC9,
+				D4EE8D0C047F0B3700A87BC9,
+				D477FAF2047F511C00A87BC9,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B9732BFDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				D4EE8D07047F0ACB00A87BC9,
+				D4EE8D10047F0D4300A87BC9,
+				D48906DD047F450A00A87BC9,
+				D46336EE04801D6D00A87BC9,
+				D4EF0D670480378C00A87BC9,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B9732DFDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				1058C7A3FEA54F0111CA2CBB,
+				D4EE8D03047F0A8800A87BC9,
+				D4C05844048007B000A87BC9,
+				D40A487C0484656F00A87BC9,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//290
+//291
+//292
+//293
+//294
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+		4A9504CDFFE6A4B311CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+//D40
+//D41
+//D42
+//D43
+//D44
+		D40A487B0484656F00A87BC9 = {
+			isa = PBXFrameworkReference;
+			name = ScreenSaver.framework;
+			path = /System/Library/Frameworks/ScreenSaver.framework;
+			refType = 0;
+		};
+		D40A487C0484656F00A87BC9 = {
+			fileRef = D40A487B0484656F00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D40A48800484682500A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = ScreenSaverControl.h;
+			path = Agent/ScreenSaverControl.h;
+			refType = 4;
+		};
+		D40A48810484682500A87BC9 = {
+			fileRef = D40A48800484682500A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D44B24E50480982300A87BC9 = {
+			fileRef = D4EE8D12047F0DB600A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D44B24E60480982300A87BC9 = {
+			fileRef = D46336EB04801D6D00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D44B24E70480982400A87BC9 = {
+			fileRef = D46336EC04801D6D00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D44B24E80480982400A87BC9 = {
+			fileRef = D4C47004047F2E8C00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D44B24E90480982500A87BC9 = {
+			fileRef = D48906DC047F450A00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D44B24EA0480982C00A87BC9 = {
+			fileRef = 17587328FF379C6511CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D46336EB04801D6D00A87BC9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = SleepTightDefaults.h;
+			path = Common/SleepTightDefaults.h;
+			refType = 4;
+		};
+		D46336EC04801D6D00A87BC9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = SleepTightDefaults.m;
+			path = Common/SleepTightDefaults.m;
+			refType = 4;
+		};
+		D46336ED04801D6D00A87BC9 = {
+			fileRef = D46336EB04801D6D00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D46336EE04801D6D00A87BC9 = {
+			fileRef = D46336EC04801D6D00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D46D32C304C3941400A87BC9 = {
+			isa = PBXFileReference;
+			path = "GNU General Public License.rtf";
+			refType = 4;
+		};
+		D46D32C404C395E400A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = English;
+			path = Pref/English.lproj/Localizable.strings;
+			refType = 4;
+		};
+		D46D32C604C395EB00A87BC9 = {
+			children = (
+				D46D32C404C395E400A87BC9,
+			);
+			isa = PBXVariantGroup;
+			name = Localizable.strings;
+			refType = 4;
+		};
+		D46D32C704C395EB00A87BC9 = {
+			fileRef = D46D32C604C395EB00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D477FAF1047F511C00A87BC9 = {
+			isa = PBXFileReference;
+			name = LockBezel.tiff;
+			path = Agent/LockBezel.tiff;
+			refType = 4;
+		};
+		D477FAF2047F511C00A87BC9 = {
+			fileRef = D477FAF1047F511C00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D48906DC047F450A00A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = SleepTightSaverPref.m;
+			path = Common/SleepTightSaverPref.m;
+			refType = 4;
+		};
+		D48906DD047F450A00A87BC9 = {
+			fileRef = D48906DC047F450A00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4A00C1A048041AB00A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = InfoPlist.strings;
+			path = Pref/InfoPlist.strings;
+			refType = 4;
+		};
+		D4A00C1B048041AB00A87BC9 = {
+			fileRef = D4A00C1A048041AB00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4A00C1C048041BC00A87BC9 = {
+			children = (
+				D4A00C1D048041BC00A87BC9,
+			);
+			isa = PBXVariantGroup;
+			name = SleepTightPref.nib;
+			path = "";
+			refType = 4;
+		};
+		D4A00C1D048041BC00A87BC9 = {
+			isa = PBXFileReference;
+			name = English;
+			path = Pref/English.lproj/SleepTightPref.nib;
+			refType = 4;
+		};
+		D4A00C1E048041BC00A87BC9 = {
+			fileRef = D4A00C1C048041BC00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4A00C1F048041C700A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = SleepTightPref.m;
+			path = Pref/SleepTightPref.m;
+			refType = 4;
+		};
+		D4A00C20048041C700A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = SleepTightPref.h;
+			path = Pref/SleepTightPref.h;
+			refType = 4;
+		};
+		D4A00C21048041C700A87BC9 = {
+			fileRef = D4A00C1F048041C700A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4A00C22048041C700A87BC9 = {
+			fileRef = D4A00C20048041C700A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4C05843048007B000A87BC9 = {
+			isa = PBXFrameworkReference;
+			name = IOKit.framework;
+			path = /System/Library/Frameworks/IOKit.framework;
+			refType = 0;
+		};
+		D4C05844048007B000A87BC9 = {
+			fileRef = D4C05843048007B000A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4C47004047F2E8C00A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = SleepTightSaverPref.h;
+			path = Common/SleepTightSaverPref.h;
+			refType = 4;
+		};
+		D4C47006047F2E8C00A87BC9 = {
+			fileRef = D4C47004047F2E8C00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4C7110E048167F400A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = SleepTightKeyCode.m;
+			path = Pref/SleepTightKeyCode.m;
+			refType = 4;
+		};
+		D4C7110F048167F400A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = SleepTightKeyCode.h;
+			path = Pref/SleepTightKeyCode.h;
+			refType = 4;
+		};
+		D4C71110048167F400A87BC9 = {
+			fileRef = D4C7110E048167F400A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4C71111048167F400A87BC9 = {
+			fileRef = D4C7110F048167F400A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4C7111604816BEA00A87BC9 = {
+			children = (
+				D4C7111704816BEA00A87BC9,
+			);
+			isa = PBXVariantGroup;
+			name = KeyCode.plist;
+			path = "";
+			refType = 4;
+		};
+		D4C7111704816BEA00A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = English;
+			path = Pref/English.lproj/KeyCode.plist;
+			refType = 4;
+		};
+		D4C7111804816BEA00A87BC9 = {
+			fileRef = D4C7111604816BEA00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4C7111B04819F2B00A87BC9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = SleepTightHotKeyPanel.h;
+			path = Pref/SleepTightHotKeyPanel.h;
+			refType = 4;
+		};
+		D4C7111C04819F2B00A87BC9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = SleepTightHotKeyPanel.m;
+			path = Pref/SleepTightHotKeyPanel.m;
+			refType = 4;
+		};
+		D4C7111D04819F2B00A87BC9 = {
+			fileRef = D4C7111B04819F2B00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4C7111E04819F2B00A87BC9 = {
+			fileRef = D4C7111C04819F2B00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4E85FC404803ED500A87BC9 = {
+			buildActionMask = 2147483647;
+			files = (
+				D4A00C22048041C700A87BC9,
+				D44B24E50480982300A87BC9,
+				D44B24E60480982300A87BC9,
+				D44B24E80480982400A87BC9,
+				D4C71111048167F400A87BC9,
+				D4C7111D04819F2B00A87BC9,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E85FC504803ED500A87BC9 = {
+			buildActionMask = 2147483647;
+			files = (
+				D4E85FD3048040E700A87BC9,
+				D4A00C1B048041AB00A87BC9,
+				D4A00C1E048041BC00A87BC9,
+				D44B24EA0480982C00A87BC9,
+				D4C7111804816BEA00A87BC9,
+				D46D32C704C395EB00A87BC9,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E85FC604803ED500A87BC9 = {
+			buildActionMask = 2147483647;
+			files = (
+				D4A00C21048041C700A87BC9,
+				D44B24E70480982400A87BC9,
+				D44B24E90480982500A87BC9,
+				D4C71110048167F400A87BC9,
+				D4C7111E04819F2B00A87BC9,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E85FC704803ED500A87BC9 = {
+			buildActionMask = 2147483647;
+			files = (
+				D4E85FD4048040EA00A87BC9,
+				D4E85FD5048040EB00A87BC9,
+				D4E85FD7048040FE00A87BC9,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E85FC804803ED500A87BC9 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E85FC904803ED500A87BC9 = {
+			buildPhases = (
+				D4E85FC404803ED500A87BC9,
+				D4E85FC504803ED500A87BC9,
+				D4E85FC604803ED500A87BC9,
+				D4E85FC704803ED500A87BC9,
+				D4E85FC804803ED500A87BC9,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-bundle -twolevel_namespace";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LockTight;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			dependencies = (
+				D4E85FCB04803EDD00A87BC9,
+			);
+			isa = PBXBundleTarget;
+			name = SleepTightPref;
+			productName = SleepTightPref;
+			productReference = D4E85FCA04803ED500A87BC9;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>LockTight</string>
+	<key>CFBundleGetInfoString</key>
+	<string>LockTight 0.1, Menno Pieters, based upon SleepTight Copyright © 2003 Alex Harper</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>cx.pieters.LockTight</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>LockTight</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>LockTight 0.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>NSMainNibFile</key>
+	<string>SleepTightPref</string>
+	<key>NSPrefPaneIconFile</key>
+	<string>SleepTightPref.tiff</string>
+	<key>NSPrincipalClass</key>
+	<string>SleepTightPref</string>
+</dict>
+</plist>
+";
+		};
+		D4E85FCA04803ED500A87BC9 = {
+			isa = PBXBundleReference;
+			path = LockTight.prefPane;
+			refType = 3;
+		};
+		D4E85FCB04803EDD00A87BC9 = {
+			isa = PBXTargetDependency;
+			target = 29B97326FDCFA39411CA2CEA;
+		};
+		D4E85FCC04803EEE00A87BC9 = {
+			isa = PBXTargetDependency;
+			target = D4E85FC904803ED500A87BC9;
+		};
+		D4E85FCF048040BE00A87BC9 = {
+			children = (
+				D4A00C20048041C700A87BC9,
+				D4A00C1F048041C700A87BC9,
+				D4C7110F048167F400A87BC9,
+				D4C7110E048167F400A87BC9,
+				D4C7111B04819F2B00A87BC9,
+				D4C7111C04819F2B00A87BC9,
+				D4E85FD0048040C900A87BC9,
+			);
+			isa = PBXGroup;
+			name = PrefPane;
+			refType = 4;
+		};
+		D4E85FD0048040C900A87BC9 = {
+			children = (
+				D46D32C604C395EB00A87BC9,
+				D4C7111604816BEA00A87BC9,
+				D4A00C1A048041AB00A87BC9,
+				D4A00C1C048041BC00A87BC9,
+				D4E85FD1048040DD00A87BC9,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+		};
+		D4E85FD1048040DD00A87BC9 = {
+			isa = PBXFileReference;
+			name = SleepTightPref.tiff;
+			path = Pref/SleepTightPref.tiff;
+			refType = 4;
+		};
+		D4E85FD3048040E700A87BC9 = {
+			fileRef = D4E85FD1048040DD00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4E85FD4048040EA00A87BC9 = {
+			fileRef = D4EE8D02047F0A8800A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4E85FD5048040EB00A87BC9 = {
+			fileRef = 1058C7A1FEA54F0111CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4E85FD6048040FE00A87BC9 = {
+			isa = PBXFrameworkReference;
+			name = PreferencePanes.framework;
+			path = /System/Library/Frameworks/PreferencePanes.framework;
+			refType = 0;
+		};
+		D4E85FD7048040FE00A87BC9 = {
+			fileRef = D4E85FD6048040FE00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4EE8CF7047F0A0B00A87BC9 = {
+			children = (
+				D4EE8D06047F0ACB00A87BC9,
+				D40A48800484682500A87BC9,
+				D4EE8D0D047F0D4300A87BC9,
+				D4EE8D0E047F0D4300A87BC9,
+				D4EF0D640480378C00A87BC9,
+				D4EF0D650480378C00A87BC9,
+				29B97317FDCFA39411CA2CEA,
+			);
+			isa = PBXGroup;
+			name = Agent;
+			refType = 4;
+		};
+		D4EE8D00047F0A6D00A87BC9 = {
+			buildPhases = (
+			);
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LockTight;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+				D4E85FCC04803EEE00A87BC9,
+			);
+			isa = PBXAggregateTarget;
+			name = SleepTight;
+			productName = SleepTight;
+		};
+		D4EE8D02047F0A8800A87BC9 = {
+			isa = PBXFrameworkReference;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+		};
+		D4EE8D03047F0A8800A87BC9 = {
+			fileRef = D4EE8D02047F0A8800A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4EE8D06047F0ACB00A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = main.m;
+			path = Agent/main.m;
+			refType = 4;
+		};
+		D4EE8D07047F0ACB00A87BC9 = {
+			fileRef = D4EE8D06047F0ACB00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4EE8D09047F0AF000A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = InfoPlist.strings;
+			path = Agent/InfoPlist.strings;
+			refType = 4;
+		};
+		D4EE8D0A047F0AF000A87BC9 = {
+			fileRef = D4EE8D09047F0AF000A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4EE8D0B047F0B3700A87BC9 = {
+			isa = PBXFileReference;
+			name = SleepTightAgent.nib;
+			path = Agent/SleepTightAgent.nib;
+			refType = 4;
+		};
+		D4EE8D0C047F0B3700A87BC9 = {
+			fileRef = D4EE8D0B047F0B3700A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4EE8D0D047F0D4300A87BC9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = SleepTightAgent.h;
+			path = Agent/SleepTightAgent.h;
+			refType = 4;
+		};
+		D4EE8D0E047F0D4300A87BC9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = SleepTightAgent.m;
+			path = Agent/SleepTightAgent.m;
+			refType = 4;
+		};
+		D4EE8D0F047F0D4300A87BC9 = {
+			fileRef = D4EE8D0D047F0D4300A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4EE8D10047F0D4300A87BC9 = {
+			fileRef = D4EE8D0E047F0D4300A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4EE8D11047F0D5300A87BC9 = {
+			children = (
+				D4EE8D12047F0DB600A87BC9,
+				D46336EB04801D6D00A87BC9,
+				D46336EC04801D6D00A87BC9,
+				D4C47004047F2E8C00A87BC9,
+				D48906DC047F450A00A87BC9,
+			);
+			isa = PBXGroup;
+			name = Common;
+			path = "";
+			refType = 4;
+		};
+		D4EE8D12047F0DB600A87BC9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = SleepTight.h;
+			path = Common/SleepTight.h;
+			refType = 4;
+		};
+		D4EE8D13047F0DB600A87BC9 = {
+			fileRef = D4EE8D12047F0DB600A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4EF0D640480378C00A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = SleepLockBezel.h;
+			path = Agent/SleepLockBezel.h;
+			refType = 4;
+		};
+		D4EF0D650480378C00A87BC9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = SleepLockBezel.m;
+			path = Agent/SleepLockBezel.m;
+			refType = 4;
+		};
+		D4EF0D660480378C00A87BC9 = {
+			fileRef = D4EF0D640480378C00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4EF0D670480378C00A87BC9 = {
+			fileRef = D4EF0D650480378C00A87BC9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA;
+}

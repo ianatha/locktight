@@ -1,0 +1,9 @@
+// Strings for Panther error
+"Unsupported OS Version" = "Unsupported OS Version";
+"SleepTight is only supported on MacOS X 10.3 Panther. See the ReadMe file for details." = 
+"SleepTight is only supported on MacOS X 10.3 Panther. See the ReadMe file for details.";
+
+// Strings for first run
+"SleepTight First Run" = "SleepTight First Run";
+"SleepTight works with most Macintosh models and most screensavers, however some combinations of Mac model and screensaver can cause serious problems. Please read the FAQ in the ReadMe file before enabling SleepTight\n\nThis message will only appear once." =
+"SleepTight works with most Macintosh models and most screensavers, however some combinations of Mac model and screensaver can cause serious problems. Please read the FAQ in the ReadMe file before enabling SleepTight\n\nThis message will only appear once.";

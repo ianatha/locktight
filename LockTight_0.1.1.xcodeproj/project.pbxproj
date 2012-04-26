@@ -1,0 +1,1059 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B5E29180104B7F30007BAE9C /* SleepTight (Copied) */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B5E29183104B7F30007BAE9C /* Build configuration list for PBXAggregateTarget "SleepTight (Copied)" */;
+			buildPhases = (
+			);
+			dependencies = (
+				B5E291C5104B7F31007BAE9C /* PBXTargetDependency */,
+			);
+			name = "SleepTight (Copied)";
+			productName = SleepTight;
+		};
+		D4EE8D00047F0A6D00A87BC9 /* SleepTight */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B5E2913C104B79F5007BAE9C /* Build configuration list for PBXAggregateTarget "SleepTight" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D4E85FCC04803EEE00A87BC9 /* PBXTargetDependency */,
+			);
+			name = SleepTight;
+			productName = SleepTight;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXApplicationTarget section */
+		29B97326FDCFA39411CA2CEA /* SleepTightAgent */ = {
+			isa = PBXApplicationTarget;
+			buildConfigurationList = B5E2913A104B79F5007BAE9C /* Build configuration list for PBXApplicationTarget "SleepTightAgent" */;
+			buildPhases = (
+				29B97327FDCFA39411CA2CEA /* Headers */,
+				29B97328FDCFA39411CA2CEA /* Resources */,
+				29B9732BFDCFA39411CA2CEA /* Sources */,
+				29B9732DFDCFA39411CA2CEA /* Frameworks */,
+			);
+			dependencies = (
+			);
+			name = SleepTightAgent;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SleepTight;
+			productReference = 17587328FF379C6511CA2CBB /* SleepTightAgent.app */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SleepTightAgent</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.ragingmenace.SleepTightAgent</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>LSBackgroundOnly</key>
+	<integer>1</integer>
+	<key>NSMainNibFile</key>
+	<string>SleepTightAgent</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+/* End PBXApplicationTarget section */
+
+/* Begin PBXBuildFile section */
+		1058C7A3FEA54F0111CA2CBB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B5E2918A104B7F30007BAE9C /* SleepTightPref.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A00C20048041C700A87BC9 /* SleepTightPref.h */; };
+		B5E2918B104B7F30007BAE9C /* SleepTight.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EE8D12047F0DB600A87BC9 /* SleepTight.h */; };
+		B5E2918C104B7F30007BAE9C /* SleepTightDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = D46336EB04801D6D00A87BC9 /* SleepTightDefaults.h */; };
+		B5E2918D104B7F30007BAE9C /* SleepTightSaverPref.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C47004047F2E8C00A87BC9 /* SleepTightSaverPref.h */; };
+		B5E2918E104B7F30007BAE9C /* SleepTightKeyCode.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C7110F048167F400A87BC9 /* SleepTightKeyCode.h */; };
+		B5E2918F104B7F30007BAE9C /* SleepTightHotKeyPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C7111B04819F2B00A87BC9 /* SleepTightHotKeyPanel.h */; };
+		B5E29191104B7F30007BAE9C /* SleepTightPref.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D4E85FD1048040DD00A87BC9 /* SleepTightPref.tiff */; };
+		B5E29192104B7F30007BAE9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4A00C1A048041AB00A87BC9 /* InfoPlist.strings */; };
+		B5E29193104B7F30007BAE9C /* SleepTightPref.nib in Resources */ = {isa = PBXBuildFile; fileRef = D4A00C1C048041BC00A87BC9 /* SleepTightPref.nib */; };
+		B5E29195104B7F30007BAE9C /* KeyCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4C7111604816BEA00A87BC9 /* KeyCode.plist */; };
+		B5E29196104B7F30007BAE9C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D46D32C604C395EB00A87BC9 /* Localizable.strings */; };
+		B5E29198104B7F30007BAE9C /* SleepTightPref.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A00C1F048041C700A87BC9 /* SleepTightPref.m */; };
+		B5E29199104B7F30007BAE9C /* SleepTightDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = D46336EC04801D6D00A87BC9 /* SleepTightDefaults.m */; };
+		B5E2919A104B7F30007BAE9C /* SleepTightSaverPref.m in Sources */ = {isa = PBXBuildFile; fileRef = D48906DC047F450A00A87BC9 /* SleepTightSaverPref.m */; };
+		B5E2919B104B7F30007BAE9C /* SleepTightKeyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7110E048167F400A87BC9 /* SleepTightKeyCode.m */; };
+		B5E2919C104B7F30007BAE9C /* SleepTightHotKeyPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7111C04819F2B00A87BC9 /* SleepTightHotKeyPanel.m */; };
+		B5E2919E104B7F30007BAE9C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EE8D02047F0A8800A87BC9 /* Carbon.framework */; };
+		B5E2919F104B7F30007BAE9C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B5E291A0104B7F30007BAE9C /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E85FD6048040FE00A87BC9 /* PreferencePanes.framework */; };
+		B5E291A9104B7F31007BAE9C /* SleepTightAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EE8D0D047F0D4300A87BC9 /* SleepTightAgent.h */; };
+		B5E291AA104B7F31007BAE9C /* SleepTight.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EE8D12047F0DB600A87BC9 /* SleepTight.h */; };
+		B5E291AB104B7F31007BAE9C /* SleepTightSaverPref.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C47004047F2E8C00A87BC9 /* SleepTightSaverPref.h */; };
+		B5E291AC104B7F31007BAE9C /* SleepTightDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = D46336EB04801D6D00A87BC9 /* SleepTightDefaults.h */; };
+		B5E291AD104B7F31007BAE9C /* SleepLockBezel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EF0D640480378C00A87BC9 /* SleepLockBezel.h */; };
+		B5E291AE104B7F31007BAE9C /* ScreenSaverControl.h in Headers */ = {isa = PBXBuildFile; fileRef = D40A48800484682500A87BC9 /* ScreenSaverControl.h */; };
+		B5E291B0104B7F31007BAE9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4EE8D09047F0AF000A87BC9 /* InfoPlist.strings */; };
+		B5E291B1104B7F31007BAE9C /* SleepTightAgent.nib in Resources */ = {isa = PBXBuildFile; fileRef = D4EE8D0B047F0B3700A87BC9 /* SleepTightAgent.nib */; };
+		B5E291B2104B7F31007BAE9C /* LockBezel.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D477FAF1047F511C00A87BC9 /* LockBezel.tiff */; };
+		B5E291B4104B7F31007BAE9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EE8D06047F0ACB00A87BC9 /* main.m */; };
+		B5E291B5104B7F31007BAE9C /* SleepTightAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EE8D0E047F0D4300A87BC9 /* SleepTightAgent.m */; };
+		B5E291B6104B7F31007BAE9C /* SleepTightSaverPref.m in Sources */ = {isa = PBXBuildFile; fileRef = D48906DC047F450A00A87BC9 /* SleepTightSaverPref.m */; };
+		B5E291B7104B7F31007BAE9C /* SleepTightDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = D46336EC04801D6D00A87BC9 /* SleepTightDefaults.m */; };
+		B5E291B8104B7F31007BAE9C /* SleepLockBezel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EF0D650480378C00A87BC9 /* SleepLockBezel.m */; };
+		B5E291BA104B7F31007BAE9C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B5E291BB104B7F31007BAE9C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EE8D02047F0A8800A87BC9 /* Carbon.framework */; };
+		B5E291BC104B7F31007BAE9C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C05843048007B000A87BC9 /* IOKit.framework */; };
+		B5E291BD104B7F31007BAE9C /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40A487B0484656F00A87BC9 /* ScreenSaver.framework */; };
+		B5E291C8104B7F31007BAE9C /* SleepTightAgent.app in Resources */ = {isa = PBXBuildFile; fileRef = B5E291C2104B7F31007BAE9C /* SleepTightAgent.app */; };
+		D40A487C0484656F00A87BC9 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40A487B0484656F00A87BC9 /* ScreenSaver.framework */; };
+		D40A48810484682500A87BC9 /* ScreenSaverControl.h in Headers */ = {isa = PBXBuildFile; fileRef = D40A48800484682500A87BC9 /* ScreenSaverControl.h */; };
+		D44B24E50480982300A87BC9 /* SleepTight.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EE8D12047F0DB600A87BC9 /* SleepTight.h */; };
+		D44B24E60480982300A87BC9 /* SleepTightDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = D46336EB04801D6D00A87BC9 /* SleepTightDefaults.h */; };
+		D44B24E70480982400A87BC9 /* SleepTightDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = D46336EC04801D6D00A87BC9 /* SleepTightDefaults.m */; };
+		D44B24E80480982400A87BC9 /* SleepTightSaverPref.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C47004047F2E8C00A87BC9 /* SleepTightSaverPref.h */; };
+		D44B24E90480982500A87BC9 /* SleepTightSaverPref.m in Sources */ = {isa = PBXBuildFile; fileRef = D48906DC047F450A00A87BC9 /* SleepTightSaverPref.m */; };
+		D44B24EA0480982C00A87BC9 /* SleepTightAgent.app in Resources */ = {isa = PBXBuildFile; fileRef = 17587328FF379C6511CA2CBB /* SleepTightAgent.app */; };
+		D46336ED04801D6D00A87BC9 /* SleepTightDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = D46336EB04801D6D00A87BC9 /* SleepTightDefaults.h */; };
+		D46336EE04801D6D00A87BC9 /* SleepTightDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = D46336EC04801D6D00A87BC9 /* SleepTightDefaults.m */; };
+		D46D32C704C395EB00A87BC9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D46D32C604C395EB00A87BC9 /* Localizable.strings */; };
+		D477FAF2047F511C00A87BC9 /* LockBezel.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D477FAF1047F511C00A87BC9 /* LockBezel.tiff */; };
+		D48906DD047F450A00A87BC9 /* SleepTightSaverPref.m in Sources */ = {isa = PBXBuildFile; fileRef = D48906DC047F450A00A87BC9 /* SleepTightSaverPref.m */; };
+		D4A00C1B048041AB00A87BC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4A00C1A048041AB00A87BC9 /* InfoPlist.strings */; };
+		D4A00C1E048041BC00A87BC9 /* SleepTightPref.nib in Resources */ = {isa = PBXBuildFile; fileRef = D4A00C1C048041BC00A87BC9 /* SleepTightPref.nib */; };
+		D4A00C21048041C700A87BC9 /* SleepTightPref.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A00C1F048041C700A87BC9 /* SleepTightPref.m */; };
+		D4A00C22048041C700A87BC9 /* SleepTightPref.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A00C20048041C700A87BC9 /* SleepTightPref.h */; };
+		D4C05844048007B000A87BC9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C05843048007B000A87BC9 /* IOKit.framework */; };
+		D4C47006047F2E8C00A87BC9 /* SleepTightSaverPref.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C47004047F2E8C00A87BC9 /* SleepTightSaverPref.h */; };
+		D4C71110048167F400A87BC9 /* SleepTightKeyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7110E048167F400A87BC9 /* SleepTightKeyCode.m */; };
+		D4C71111048167F400A87BC9 /* SleepTightKeyCode.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C7110F048167F400A87BC9 /* SleepTightKeyCode.h */; };
+		D4C7111804816BEA00A87BC9 /* KeyCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4C7111604816BEA00A87BC9 /* KeyCode.plist */; };
+		D4C7111D04819F2B00A87BC9 /* SleepTightHotKeyPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C7111B04819F2B00A87BC9 /* SleepTightHotKeyPanel.h */; };
+		D4C7111E04819F2B00A87BC9 /* SleepTightHotKeyPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7111C04819F2B00A87BC9 /* SleepTightHotKeyPanel.m */; };
+		D4E85FD3048040E700A87BC9 /* SleepTightPref.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D4E85FD1048040DD00A87BC9 /* SleepTightPref.tiff */; };
+		D4E85FD4048040EA00A87BC9 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EE8D02047F0A8800A87BC9 /* Carbon.framework */; };
+		D4E85FD5048040EB00A87BC9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D4E85FD7048040FE00A87BC9 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E85FD6048040FE00A87BC9 /* PreferencePanes.framework */; };
+		D4EE8D03047F0A8800A87BC9 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EE8D02047F0A8800A87BC9 /* Carbon.framework */; };
+		D4EE8D07047F0ACB00A87BC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EE8D06047F0ACB00A87BC9 /* main.m */; };
+		D4EE8D0A047F0AF000A87BC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4EE8D09047F0AF000A87BC9 /* InfoPlist.strings */; };
+		D4EE8D0C047F0B3700A87BC9 /* SleepTightAgent.nib in Resources */ = {isa = PBXBuildFile; fileRef = D4EE8D0B047F0B3700A87BC9 /* SleepTightAgent.nib */; };
+		D4EE8D0F047F0D4300A87BC9 /* SleepTightAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EE8D0D047F0D4300A87BC9 /* SleepTightAgent.h */; };
+		D4EE8D10047F0D4300A87BC9 /* SleepTightAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EE8D0E047F0D4300A87BC9 /* SleepTightAgent.m */; };
+		D4EE8D13047F0DB600A87BC9 /* SleepTight.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EE8D12047F0DB600A87BC9 /* SleepTight.h */; };
+		D4EF0D660480378C00A87BC9 /* SleepLockBezel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EF0D640480378C00A87BC9 /* SleepLockBezel.h */; };
+		D4EF0D670480378C00A87BC9 /* SleepLockBezel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EF0D650480378C00A87BC9 /* SleepLockBezel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBundleTarget section */
+		D4E85FC904803ED500A87BC9 /* SleepTightPref */ = {
+			isa = PBXBundleTarget;
+			buildConfigurationList = B5E2913B104B79F5007BAE9C /* Build configuration list for PBXBundleTarget "SleepTightPref" */;
+			buildPhases = (
+				D4E85FC404803ED500A87BC9 /* Headers */,
+				D4E85FC504803ED500A87BC9 /* Resources */,
+				D4E85FC604803ED500A87BC9 /* Sources */,
+				D4E85FC704803ED500A87BC9 /* Frameworks */,
+				D4E85FC804803ED500A87BC9 /* Rez */,
+			);
+			dependencies = (
+				D4E85FCB04803EDD00A87BC9 /* PBXTargetDependency */,
+			);
+			name = SleepTightPref;
+			productName = SleepTightPref;
+			productReference = D4E85FCA04803ED500A87BC9 /* LockTight.prefPane */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>LockTight</string>
+	<key>CFBundleGetInfoString</key>
+	<string>LockTight 0.1, Menno Pieters, based upon SleepTight Copyright © 2003 Alex Harper</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>cx.pieters.LockTight</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>LockTight</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>LockTight 0.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>NSMainNibFile</key>
+	<string>SleepTightPref</string>
+	<key>NSPrefPaneIconFile</key>
+	<string>SleepTightPref.tiff</string>
+	<key>NSPrincipalClass</key>
+	<string>SleepTightPref</string>
+</dict>
+</plist>
+";
+		};
+/* End PBXBundleTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		B5E2911F104B79F2007BAE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E85FC904803ED500A87BC9;
+			remoteInfo = SleepTightPref;
+		};
+		B5E29120104B79F2007BAE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29B97326FDCFA39411CA2CEA;
+			remoteInfo = SleepTightAgent;
+		};
+		B5E291C4104B7F31007BAE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5E29186104B7F30007BAE9C /* SleepTightPref (Upgraded) */;
+			remoteInfo = "SleepTightPref (Upgraded)";
+		};
+		B5E291C6104B7F31007BAE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5E291A7104B7F31007BAE9C /* SleepTightAgent (Upgraded) */;
+			remoteInfo = "SleepTightAgent (Upgraded)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		17587328FF379C6511CA2CBB /* SleepTightAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SleepTightAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E291A5104B7F30007BAE9C /* Info-SleepTightPref__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-SleepTightPref__Upgraded_.plist"; sourceTree = "<group>"; };
+		B5E291A6104B7F31007BAE9C /* LockTight.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockTight.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E291C1104B7F31007BAE9C /* Info-SleepTightAgent__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-SleepTightAgent__Upgraded_.plist"; sourceTree = "<group>"; };
+		B5E291C2104B7F31007BAE9C /* SleepTightAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepTightAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40A487B0484656F00A87BC9 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		D40A48800484682500A87BC9 /* ScreenSaverControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ScreenSaverControl.h; path = Agent/ScreenSaverControl.h; sourceTree = "<group>"; };
+		D46336EB04801D6D00A87BC9 /* SleepTightDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SleepTightDefaults.h; path = Common/SleepTightDefaults.h; sourceTree = "<group>"; };
+		D46336EC04801D6D00A87BC9 /* SleepTightDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SleepTightDefaults.m; path = Common/SleepTightDefaults.m; sourceTree = "<group>"; };
+		D46D32C304C3941400A87BC9 /* GNU General Public License.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "GNU General Public License.rtf"; sourceTree = "<group>"; };
+		D46D32C404C395E400A87BC9 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = Pref/English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D477FAF1047F511C00A87BC9 /* LockBezel.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = LockBezel.tiff; path = Agent/LockBezel.tiff; sourceTree = "<group>"; };
+		D48906DC047F450A00A87BC9 /* SleepTightSaverPref.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SleepTightSaverPref.m; path = Common/SleepTightSaverPref.m; sourceTree = "<group>"; };
+		D4A00C1A048041AB00A87BC9 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Pref/InfoPlist.strings; sourceTree = "<group>"; };
+		D4A00C1D048041BC00A87BC9 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Pref/English.lproj/SleepTightPref.nib; sourceTree = "<group>"; };
+		D4A00C1F048041C700A87BC9 /* SleepTightPref.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SleepTightPref.m; path = Pref/SleepTightPref.m; sourceTree = "<group>"; };
+		D4A00C20048041C700A87BC9 /* SleepTightPref.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SleepTightPref.h; path = Pref/SleepTightPref.h; sourceTree = "<group>"; };
+		D4C05843048007B000A87BC9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		D4C47004047F2E8C00A87BC9 /* SleepTightSaverPref.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SleepTightSaverPref.h; path = Common/SleepTightSaverPref.h; sourceTree = "<group>"; };
+		D4C7110E048167F400A87BC9 /* SleepTightKeyCode.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SleepTightKeyCode.m; path = Pref/SleepTightKeyCode.m; sourceTree = "<group>"; };
+		D4C7110F048167F400A87BC9 /* SleepTightKeyCode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SleepTightKeyCode.h; path = Pref/SleepTightKeyCode.h; sourceTree = "<group>"; };
+		D4C7111704816BEA00A87BC9 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist; name = English; path = Pref/English.lproj/KeyCode.plist; sourceTree = "<group>"; };
+		D4C7111B04819F2B00A87BC9 /* SleepTightHotKeyPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SleepTightHotKeyPanel.h; path = Pref/SleepTightHotKeyPanel.h; sourceTree = "<group>"; };
+		D4C7111C04819F2B00A87BC9 /* SleepTightHotKeyPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SleepTightHotKeyPanel.m; path = Pref/SleepTightHotKeyPanel.m; sourceTree = "<group>"; };
+		D4E85FCA04803ED500A87BC9 /* LockTight.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = LockTight.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E85FD1048040DD00A87BC9 /* SleepTightPref.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = SleepTightPref.tiff; path = Pref/SleepTightPref.tiff; sourceTree = "<group>"; };
+		D4E85FD6048040FE00A87BC9 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+		D4EE8D02047F0A8800A87BC9 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		D4EE8D06047F0ACB00A87BC9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Agent/main.m; sourceTree = "<group>"; };
+		D4EE8D09047F0AF000A87BC9 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Agent/InfoPlist.strings; sourceTree = "<group>"; };
+		D4EE8D0B047F0B3700A87BC9 /* SleepTightAgent.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = SleepTightAgent.nib; path = Agent/SleepTightAgent.nib; sourceTree = "<group>"; };
+		D4EE8D0D047F0D4300A87BC9 /* SleepTightAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SleepTightAgent.h; path = Agent/SleepTightAgent.h; sourceTree = "<group>"; };
+		D4EE8D0E047F0D4300A87BC9 /* SleepTightAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SleepTightAgent.m; path = Agent/SleepTightAgent.m; sourceTree = "<group>"; };
+		D4EE8D12047F0DB600A87BC9 /* SleepTight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SleepTight.h; path = Common/SleepTight.h; sourceTree = "<group>"; };
+		D4EF0D640480378C00A87BC9 /* SleepLockBezel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SleepLockBezel.h; path = Agent/SleepLockBezel.h; sourceTree = "<group>"; };
+		D4EF0D650480378C00A87BC9 /* SleepLockBezel.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SleepLockBezel.m; path = Agent/SleepLockBezel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B9732DFDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1058C7A3FEA54F0111CA2CBB /* Cocoa.framework in Frameworks */,
+				D4EE8D03047F0A8800A87BC9 /* Carbon.framework in Frameworks */,
+				D4C05844048007B000A87BC9 /* IOKit.framework in Frameworks */,
+				D40A487C0484656F00A87BC9 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E2919D104B7F30007BAE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E2919E104B7F30007BAE9C /* Carbon.framework in Frameworks */,
+				B5E2919F104B7F30007BAE9C /* Cocoa.framework in Frameworks */,
+				B5E291A0104B7F30007BAE9C /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E291B9104B7F31007BAE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E291BA104B7F31007BAE9C /* Cocoa.framework in Frameworks */,
+				B5E291BB104B7F31007BAE9C /* Carbon.framework in Frameworks */,
+				B5E291BC104B7F31007BAE9C /* IOKit.framework in Frameworks */,
+				B5E291BD104B7F31007BAE9C /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E85FC704803ED500A87BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E85FD4048040EA00A87BC9 /* Carbon.framework in Frameworks */,
+				D4E85FD5048040EB00A87BC9 /* Cocoa.framework in Frameworks */,
+				D4E85FD7048040FE00A87BC9 /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17587328FF379C6511CA2CBB /* SleepTightAgent.app */,
+				D4E85FCA04803ED500A87BC9 /* LockTight.prefPane */,
+				B5E291A6104B7F31007BAE9C /* LockTight.prefPane */,
+				B5E291C2104B7F31007BAE9C /* SleepTightAgent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* LockTight */ = {
+			isa = PBXGroup;
+			children = (
+				D46D32C304C3941400A87BC9 /* GNU General Public License.rtf */,
+				D4EE8D11047F0D5300A87BC9 /* Common */,
+				D4EE8CF7047F0A0B00A87BC9 /* Agent */,
+				D4E85FCF048040BE00A87BC9 /* PrefPane */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				B5E291A5104B7F30007BAE9C /* Info-SleepTightPref__Upgraded_.plist */,
+				B5E291C1104B7F31007BAE9C /* Info-SleepTightAgent__Upgraded_.plist */,
+			);
+			name = LockTight;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE8D09047F0AF000A87BC9 /* InfoPlist.strings */,
+				D4EE8D0B047F0B3700A87BC9 /* SleepTightAgent.nib */,
+				D477FAF1047F511C00A87BC9 /* LockBezel.tiff */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				D4EE8D02047F0A8800A87BC9 /* Carbon.framework */,
+				D40A487B0484656F00A87BC9 /* ScreenSaver.framework */,
+				D4C05843048007B000A87BC9 /* IOKit.framework */,
+				D4E85FD6048040FE00A87BC9 /* PreferencePanes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4E85FCF048040BE00A87BC9 /* PrefPane */ = {
+			isa = PBXGroup;
+			children = (
+				D4A00C20048041C700A87BC9 /* SleepTightPref.h */,
+				D4A00C1F048041C700A87BC9 /* SleepTightPref.m */,
+				D4C7110F048167F400A87BC9 /* SleepTightKeyCode.h */,
+				D4C7110E048167F400A87BC9 /* SleepTightKeyCode.m */,
+				D4C7111B04819F2B00A87BC9 /* SleepTightHotKeyPanel.h */,
+				D4C7111C04819F2B00A87BC9 /* SleepTightHotKeyPanel.m */,
+				D4E85FD0048040C900A87BC9 /* Resources */,
+			);
+			name = PrefPane;
+			sourceTree = "<group>";
+		};
+		D4E85FD0048040C900A87BC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D46D32C604C395EB00A87BC9 /* Localizable.strings */,
+				D4C7111604816BEA00A87BC9 /* KeyCode.plist */,
+				D4A00C1A048041AB00A87BC9 /* InfoPlist.strings */,
+				D4A00C1C048041BC00A87BC9 /* SleepTightPref.nib */,
+				D4E85FD1048040DD00A87BC9 /* SleepTightPref.tiff */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D4EE8CF7047F0A0B00A87BC9 /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE8D06047F0ACB00A87BC9 /* main.m */,
+				D40A48800484682500A87BC9 /* ScreenSaverControl.h */,
+				D4EE8D0D047F0D4300A87BC9 /* SleepTightAgent.h */,
+				D4EE8D0E047F0D4300A87BC9 /* SleepTightAgent.m */,
+				D4EF0D640480378C00A87BC9 /* SleepLockBezel.h */,
+				D4EF0D650480378C00A87BC9 /* SleepLockBezel.m */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+			);
+			name = Agent;
+			sourceTree = "<group>";
+		};
+		D4EE8D11047F0D5300A87BC9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D4EE8D12047F0DB600A87BC9 /* SleepTight.h */,
+				D46336EB04801D6D00A87BC9 /* SleepTightDefaults.h */,
+				D46336EC04801D6D00A87BC9 /* SleepTightDefaults.m */,
+				D4C47004047F2E8C00A87BC9 /* SleepTightSaverPref.h */,
+				D48906DC047F450A00A87BC9 /* SleepTightSaverPref.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29B97327FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EE8D0F047F0D4300A87BC9 /* SleepTightAgent.h in Headers */,
+				D4EE8D13047F0DB600A87BC9 /* SleepTight.h in Headers */,
+				D4C47006047F2E8C00A87BC9 /* SleepTightSaverPref.h in Headers */,
+				D46336ED04801D6D00A87BC9 /* SleepTightDefaults.h in Headers */,
+				D4EF0D660480378C00A87BC9 /* SleepLockBezel.h in Headers */,
+				D40A48810484682500A87BC9 /* ScreenSaverControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E29189104B7F30007BAE9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E2918A104B7F30007BAE9C /* SleepTightPref.h in Headers */,
+				B5E2918B104B7F30007BAE9C /* SleepTight.h in Headers */,
+				B5E2918C104B7F30007BAE9C /* SleepTightDefaults.h in Headers */,
+				B5E2918D104B7F30007BAE9C /* SleepTightSaverPref.h in Headers */,
+				B5E2918E104B7F30007BAE9C /* SleepTightKeyCode.h in Headers */,
+				B5E2918F104B7F30007BAE9C /* SleepTightHotKeyPanel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E291A8104B7F31007BAE9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E291A9104B7F31007BAE9C /* SleepTightAgent.h in Headers */,
+				B5E291AA104B7F31007BAE9C /* SleepTight.h in Headers */,
+				B5E291AB104B7F31007BAE9C /* SleepTightSaverPref.h in Headers */,
+				B5E291AC104B7F31007BAE9C /* SleepTightDefaults.h in Headers */,
+				B5E291AD104B7F31007BAE9C /* SleepLockBezel.h in Headers */,
+				B5E291AE104B7F31007BAE9C /* ScreenSaverControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E85FC404803ED500A87BC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A00C22048041C700A87BC9 /* SleepTightPref.h in Headers */,
+				D44B24E50480982300A87BC9 /* SleepTight.h in Headers */,
+				D44B24E60480982300A87BC9 /* SleepTightDefaults.h in Headers */,
+				D44B24E80480982400A87BC9 /* SleepTightSaverPref.h in Headers */,
+				D4C71111048167F400A87BC9 /* SleepTightKeyCode.h in Headers */,
+				D4C7111D04819F2B00A87BC9 /* SleepTightHotKeyPanel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B5E29186104B7F30007BAE9C /* SleepTightPref (Upgraded) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E291A2104B7F30007BAE9C /* Build configuration list for PBXNativeTarget "SleepTightPref (Upgraded)" */;
+			buildPhases = (
+				B5E29189104B7F30007BAE9C /* Headers */,
+				B5E29190104B7F30007BAE9C /* Resources */,
+				B5E29197104B7F30007BAE9C /* Sources */,
+				B5E2919D104B7F30007BAE9C /* Frameworks */,
+				B5E291A1104B7F30007BAE9C /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5E291C7104B7F31007BAE9C /* PBXTargetDependency */,
+			);
+			name = "SleepTightPref (Upgraded)";
+			productName = SleepTightPref;
+			productReference = B5E291A6104B7F31007BAE9C /* LockTight.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B5E291A7104B7F31007BAE9C /* SleepTightAgent (Upgraded) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E291BE104B7F31007BAE9C /* Build configuration list for PBXNativeTarget "SleepTightAgent (Upgraded)" */;
+			buildPhases = (
+				B5E291A8104B7F31007BAE9C /* Headers */,
+				B5E291AF104B7F31007BAE9C /* Resources */,
+				B5E291B3104B7F31007BAE9C /* Sources */,
+				B5E291B9104B7F31007BAE9C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SleepTightAgent (Upgraded)";
+			productInstallPath = "$(HOME)/Applications";
+			productName = SleepTight;
+			productReference = B5E291C2104B7F31007BAE9C /* SleepTightAgent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B5E29139104B79F4007BAE9C /* Build configuration list for PBXProject "LockTight_0.1.1" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* LockTight */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5E29180104B7F30007BAE9C /* SleepTight (Copied) */,
+				B5E29186104B7F30007BAE9C /* SleepTightPref (Upgraded) */,
+				B5E291A7104B7F31007BAE9C /* SleepTightAgent (Upgraded) */,
+				D4EE8D00047F0A6D00A87BC9 /* SleepTight */,
+				D4E85FC904803ED500A87BC9 /* SleepTightPref */,
+				29B97326FDCFA39411CA2CEA /* SleepTightAgent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29B97328FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EE8D0A047F0AF000A87BC9 /* InfoPlist.strings in Resources */,
+				D4EE8D0C047F0B3700A87BC9 /* SleepTightAgent.nib in Resources */,
+				D477FAF2047F511C00A87BC9 /* LockBezel.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E29190104B7F30007BAE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E29191104B7F30007BAE9C /* SleepTightPref.tiff in Resources */,
+				B5E29192104B7F30007BAE9C /* InfoPlist.strings in Resources */,
+				B5E29193104B7F30007BAE9C /* SleepTightPref.nib in Resources */,
+				B5E291C8104B7F31007BAE9C /* SleepTightAgent.app in Resources */,
+				B5E29195104B7F30007BAE9C /* KeyCode.plist in Resources */,
+				B5E29196104B7F30007BAE9C /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E291AF104B7F31007BAE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E291B0104B7F31007BAE9C /* InfoPlist.strings in Resources */,
+				B5E291B1104B7F31007BAE9C /* SleepTightAgent.nib in Resources */,
+				B5E291B2104B7F31007BAE9C /* LockBezel.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E85FC504803ED500A87BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E85FD3048040E700A87BC9 /* SleepTightPref.tiff in Resources */,
+				D4A00C1B048041AB00A87BC9 /* InfoPlist.strings in Resources */,
+				D4A00C1E048041BC00A87BC9 /* SleepTightPref.nib in Resources */,
+				D44B24EA0480982C00A87BC9 /* SleepTightAgent.app in Resources */,
+				D4C7111804816BEA00A87BC9 /* KeyCode.plist in Resources */,
+				D46D32C704C395EB00A87BC9 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		B5E291A1104B7F30007BAE9C /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E85FC804803ED500A87BC9 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29B9732BFDCFA39411CA2CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EE8D07047F0ACB00A87BC9 /* main.m in Sources */,
+				D4EE8D10047F0D4300A87BC9 /* SleepTightAgent.m in Sources */,
+				D48906DD047F450A00A87BC9 /* SleepTightSaverPref.m in Sources */,
+				D46336EE04801D6D00A87BC9 /* SleepTightDefaults.m in Sources */,
+				D4EF0D670480378C00A87BC9 /* SleepLockBezel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E29197104B7F30007BAE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E29198104B7F30007BAE9C /* SleepTightPref.m in Sources */,
+				B5E29199104B7F30007BAE9C /* SleepTightDefaults.m in Sources */,
+				B5E2919A104B7F30007BAE9C /* SleepTightSaverPref.m in Sources */,
+				B5E2919B104B7F30007BAE9C /* SleepTightKeyCode.m in Sources */,
+				B5E2919C104B7F30007BAE9C /* SleepTightHotKeyPanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E291B3104B7F31007BAE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E291B4104B7F31007BAE9C /* main.m in Sources */,
+				B5E291B5104B7F31007BAE9C /* SleepTightAgent.m in Sources */,
+				B5E291B6104B7F31007BAE9C /* SleepTightSaverPref.m in Sources */,
+				B5E291B7104B7F31007BAE9C /* SleepTightDefaults.m in Sources */,
+				B5E291B8104B7F31007BAE9C /* SleepLockBezel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E85FC604803ED500A87BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A00C21048041C700A87BC9 /* SleepTightPref.m in Sources */,
+				D44B24E70480982400A87BC9 /* SleepTightDefaults.m in Sources */,
+				D44B24E90480982500A87BC9 /* SleepTightSaverPref.m in Sources */,
+				D4C71110048167F400A87BC9 /* SleepTightKeyCode.m in Sources */,
+				D4C7111E04819F2B00A87BC9 /* SleepTightHotKeyPanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5E291C5104B7F31007BAE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5E29186104B7F30007BAE9C /* SleepTightPref (Upgraded) */;
+			targetProxy = B5E291C4104B7F31007BAE9C /* PBXContainerItemProxy */;
+		};
+		B5E291C7104B7F31007BAE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5E291A7104B7F31007BAE9C /* SleepTightAgent (Upgraded) */;
+			targetProxy = B5E291C6104B7F31007BAE9C /* PBXContainerItemProxy */;
+		};
+		D4E85FCB04803EDD00A87BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29B97326FDCFA39411CA2CEA /* SleepTightAgent */;
+			targetProxy = B5E29120104B79F2007BAE9C /* PBXContainerItemProxy */;
+		};
+		D4E85FCC04803EEE00A87BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E85FC904803ED500A87BC9 /* SleepTightPref */;
+			targetProxy = B5E2911F104B79F2007BAE9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D46D32C604C395EB00A87BC9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46D32C404C395E400A87BC9 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D4A00C1C048041BC00A87BC9 /* SleepTightPref.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A00C1D048041BC00A87BC9 /* English */,
+			);
+			name = SleepTightPref.nib;
+			sourceTree = "<group>";
+		};
+		D4C7111604816BEA00A87BC9 /* KeyCode.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4C7111704816BEA00A87BC9 /* English */,
+			);
+			name = KeyCode.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5E29131104B79F4007BAE9C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		B5E29132104B79F4007BAE9C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		B5E29133104B79F4007BAE9C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LockTight;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		B5E29134104B79F4007BAE9C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LockTight;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		B5E29135104B79F4007BAE9C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUGGING_SYMBOLS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-twolevel_namespace",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LockTight;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		B5E29136104B79F4007BAE9C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-twolevel_namespace",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LockTight;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Default;
+		};
+		B5E29137104B79F4007BAE9C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PRODUCT_NAME = SleepTightAgent;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		B5E29138104B79F4007BAE9C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PRODUCT_NAME = SleepTightAgent;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		B5E29184104B7F30007BAE9C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LockTight;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		B5E29185104B7F30007BAE9C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LockTight;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		B5E291A3104B7F30007BAE9C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Info-SleepTightPref__Upgraded_.plist";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-twolevel_namespace",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LockTight;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		B5E291A4104B7F30007BAE9C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Info-SleepTightPref__Upgraded_.plist";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-twolevel_namespace",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LockTight;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Default;
+		};
+		B5E291BF104B7F31007BAE9C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-SleepTightAgent__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = SleepTightAgent;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		B5E291C0104B7F31007BAE9C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-SleepTightAgent__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = SleepTightAgent;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5E29139104B79F4007BAE9C /* Build configuration list for PBXProject "LockTight_0.1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E29131104B79F4007BAE9C /* Deployment */,
+				B5E29132104B79F4007BAE9C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		B5E2913A104B79F5007BAE9C /* Build configuration list for PBXApplicationTarget "SleepTightAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E29137104B79F4007BAE9C /* Deployment */,
+				B5E29138104B79F4007BAE9C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		B5E2913B104B79F5007BAE9C /* Build configuration list for PBXBundleTarget "SleepTightPref" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E29135104B79F4007BAE9C /* Deployment */,
+				B5E29136104B79F4007BAE9C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		B5E2913C104B79F5007BAE9C /* Build configuration list for PBXAggregateTarget "SleepTight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E29133104B79F4007BAE9C /* Deployment */,
+				B5E29134104B79F4007BAE9C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		B5E29183104B7F30007BAE9C /* Build configuration list for PBXAggregateTarget "SleepTight (Copied)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E29184104B7F30007BAE9C /* Deployment */,
+				B5E29185104B7F30007BAE9C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		B5E291A2104B7F30007BAE9C /* Build configuration list for PBXNativeTarget "SleepTightPref (Upgraded)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E291A3104B7F30007BAE9C /* Deployment */,
+				B5E291A4104B7F30007BAE9C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		B5E291BE104B7F31007BAE9C /* Build configuration list for PBXNativeTarget "SleepTightAgent (Upgraded)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E291BF104B7F31007BAE9C /* Deployment */,
+				B5E291C0104B7F31007BAE9C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
