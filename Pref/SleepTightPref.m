@@ -472,8 +472,12 @@
 	// Set up info
 	procInfo.processInfoLength = sizeof(ProcessInfoRec);
 	procInfo.processName = procName;
-	procInfo.processAppSpec = nil;
-	
+#if __LP64__
+    procInfo.processAppRef = nil;
+#else
+    procInfo.processAppSpec = nil;
+#endif
+    
 	// Using GetProcessInformation because this crashed on some machines when using ProcessInformationCopyDictionary
 	// Crash looks like an Apple bug since it happens inside ProcessInformationCopyDictionary and seems to be specifc
 	// to the background processes on the machine.
