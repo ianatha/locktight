@@ -413,7 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Ian Atha";
 				GCC_ENABLE_OBJC_GC = supported;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Deployment;
 		};
@@ -421,13 +423,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Ian Atha";
 				GCC_ENABLE_OBJC_GC = supported;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Default;
 		};
 		B5E291A3104B7F30007BAE9C /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -439,6 +444,7 @@
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = LockTight;
+				PROVISIONING_PROFILE = "";
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -453,6 +459,7 @@
 		B5E291A4104B7F30007BAE9C /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Pref/Info.plist;
@@ -463,6 +470,7 @@
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = LockTight;
+				PROVISIONING_PROFILE = "";
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wmost",
